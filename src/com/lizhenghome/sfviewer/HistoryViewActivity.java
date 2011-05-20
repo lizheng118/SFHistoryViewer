@@ -2,7 +2,7 @@ package com.lizhenghome.sfviewer;
 
 import android.app.Activity;
 import android.os.Bundle;
-import com.example.R;
+import com.lizhenghome.sfviewer.R;
 
 /**
  * Created by IntelliJ IDEA.
