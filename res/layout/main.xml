@@ -3,11 +3,58 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
+    android:background="@color/background"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="Hello World, MyActivity"
-    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:padding="10dip">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balance"
+            android:textSize="30sp"
+            android:textColor="@color/heading"/>
+        <TextView
+                android:id="@+id/balance_val"
+                android:layout_width="200dip"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:layout_gravity="right"
+                android:textSize="35sp"
+                android:textColor="@color/round_rect_foreground"
+                android:layout_marginLeft="20dip"
+                android:paddingRight="10dip"
+                android:background="@drawable/rounded_edges"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="#000000">
+        <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/history_list">
+
+        </ListView>
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dip">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dip"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:focusable="false"
+            android:text="@string/send_mail">
+        </Button>
+    </LinearLayout>
 </LinearLayout>
 

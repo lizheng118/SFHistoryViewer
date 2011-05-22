@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#2e8bcb</color>
+    <color name="heading">#ffffff</color>
+    <color name="round_rect_background">#ffffff</color>
+    <color name="round_rect_foreground">#223cfb</color>
+    <color name="section_background">#9b9b9b</color>
+    <color name="section_foreground">#ffffff</color>
+</resources>

@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SFHistoryViewer</string>
+    <string name="app_name">SFビューア</string>
+    <string name="title">SF利用履歴</string>
+    <string name="balance">残高</string>
+    <string name="send_mail">メール送信</string>
 </resources>
