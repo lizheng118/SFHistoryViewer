@@ -15,4 +15,5 @@
             </intent-filter>
         </activity>
     </application>
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
 </manifest> 

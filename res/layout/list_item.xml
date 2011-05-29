@@ -11,12 +11,35 @@
 
         <ImageView
             android:id="@+id/list_item_icon"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:tag="icon"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dip"
+            android:layout_weight="1">
+            <TextView
+                android:tag="from"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="乗車駅：竹ノ塚"/>
+            <TextView
+                android:tag="to"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="降車駅：秋葉原"/>
+        </LinearLayout>
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tag="icon"
-            android:minHeight="32dp"
-            android:maxWidth="32dp"
-            android:maxHeight="32dp"
-            android:minWidth="32dp"/>
+            android:text="￥200"
+            android:layout_margin="5dip"
+            android:textSize="25sp"/>
 	</LinearLayout>
 </LinearLayout>
